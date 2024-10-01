@@ -2,6 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.nav-item {
+  @apply text-base font-medium leading-[22px] tracking-tight text-white;
+}
+
 body {
  background: #000000;
 }

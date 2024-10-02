@@ -4,6 +4,7 @@ import NavBar from "./components/NavBar";
 import Banner from './components/Banner';
 import Features from './components/Features';
 import Footer from './components/Footer';
+import Questions from './components/Questions';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <Banner/>
       <Features/>
+      <Questions/>
       <Footer/>
     </div>
   );

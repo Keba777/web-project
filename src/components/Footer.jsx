@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer>
         <JoinWaitList/>
-        <div className='p-10  pb-32 text-primary flex justify-between'>
+        <div className='p-10  pb-32 text-primary md:flex md:justify-between'>
         <div>
             <img src={logo} alt="Logo" className="w-32 pb-4" />
             <p className='text-xs'>2024 Fuild Ai</p>

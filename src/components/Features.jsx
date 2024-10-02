@@ -7,13 +7,14 @@ import Card from "./Card";
 
 const Features = () => {
   return (
-    <section className="text-primary pt-20 px-14">
+    <section className="text-primary  md:pt-20 px-10 md:px-14">
       <p className="flex justify-center pb-4">Our Features</p>
-      <h2 className="font-sans font-normal text-[64px] leading-[64px] text-center tracking-[-0.02em] px-60">
+      <h2 className="font-sans font-normal text-3xl leading-snug text-center tracking-tight md:text-[64px] md:leading-[64px] md:px-60">
         Fluid AI was born out of a desire to simplify and streamline modern life
       </h2>
-      <div className=" grid grid-cols-7 mt-20">
-        <div className="col-span-2 pt-52">
+
+      <div className="md:grid md:grid-cols-7 md:mt-20">
+        <div className="col-span-2 pt-20 md:pt-52">
           <Card
             title="Fluid AI: Simplify, Organize, and Achieve More"
             body=" In a world where daily tasks, communication, 
@@ -23,15 +24,16 @@ const Features = () => {
                 and bucket lists into one seamless platform."
           />
         </div>
-        <div className="col-span-5 flex justify-start -ml-12">
+        <div className="col-span-5 flex justify-center md:justify-start md:-ml-12">
           <img src={iphone14} alt="iphone14" className="w-2/3" />
         </div>
       </div>
-      <div className="grid grid-cols-7 -mt-[420px]">
-        <div className="col-span-5 flex justify-end -mr-10">
+
+      <div className="md:grid md:grid-cols-7 -mt-40  md:-mt-[420px]">
+        <div className="col-span-5 flex justify-center md:justify-end md:-mr-10">
           <img src={iphone14b} alt="iphone14" className="w-2/3" />
         </div>
-        <div className="col-span-2 pt-52">
+        <div className="col-span-2 -mt-36 md:pt-52">
           <Card
             title="Fluid AI: Simplify, Organize, and Achieve More"
             body=" In a world where daily tasks, communication, 
@@ -42,9 +44,9 @@ const Features = () => {
           />
         </div>
       </div>
-
-      <div className=" grid grid-cols-7 -mt-[420px]">
-        <div className="col-span-2 pt-52">
+      
+      <div className=" md:grid md:grid-cols-7  md:-mt-[420px]">
+      <div className="col-span-2 pt-20 md:pt-52">
           <Card
             title="Fluid AI: Simplify, Organize, and Achieve More"
             body=" In a world where daily tasks, communication, 
@@ -54,15 +56,16 @@ const Features = () => {
                 and bucket lists into one seamless platform."
           />
         </div>
-        <div className="col-span-5 flex justify-start -ml-12">
+        <div className="col-span-5 flex justify-center md:justify-start md:-ml-12">
           <img src={iphone14c} alt="iphone14" className="w-2/3" />
         </div>
       </div>
-      <div className="grid grid-cols-7 -mt-[420px]">
-        <div className="col-span-5 flex justify-end -mr-10">
+
+      <div className="md:grid md:grid-cols-7 -mt-40  md:-mt-[420px]">
+      <div className="col-span-5 flex justify-center md:justify-end md:-mr-10">
           <img src={iphone14d} alt="iphone14" className="w-2/3" />
         </div>
-        <div className="col-span-2 pt-52">
+        <div className="col-span-2 -mt-36 md:pt-52">
           <Card
             title="Fluid AI: Simplify, Organize, and Achieve More"
             body=" In a world where daily tasks, communication, 
@@ -73,7 +76,7 @@ const Features = () => {
           />
         </div>
       </div>
-      <h2 className="text-5xl -mt-80 mb-20 mr-[300px]">
+      <h2 className="text-5xl md:-mt-80 my-20 md:mr-[300px]">
         Fluid AI was born out of a desire to simplify and streamline modern life
       </h2>
     </section>

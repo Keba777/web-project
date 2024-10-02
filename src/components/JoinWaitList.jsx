@@ -3,12 +3,12 @@ import React from "react";
 const JoinWaitList = () => {
   return (
     <div className="join-waitlist text-primary">
-      <div className="w-2/5 pl-14 pt-24">
-        <h2 className="text-[64px] leading-[64px] tracking-[-0.02em]">
+      <div className="md:w-2/5 pl-14 pt-24">
+        <h2 className="text-5xl md:text-[64px] md:leading-[64px] md:tracking-[-0.02em]">
           Join the Fluid AI Waitlist Today!
         </h2>
         <form className="flex flex-col pt-10">
-          <div className="relative flex flex-col mb-10">
+          <div className="relative flex flex-col mb-4 md:mb-10">
             <input
               type="text"
               id="name"
@@ -23,7 +23,7 @@ const JoinWaitList = () => {
             </label>
           </div>
 
-          <div className="relative flex flex-col mb-10">
+          <div className="relative flex flex-col mb-4 md:mb-10">
             <input
               type="email"
               id="email"
@@ -37,7 +37,7 @@ const JoinWaitList = () => {
               Email
             </label>
           </div>
-          <div className="relative flex flex-col mb-10">
+          <div className="relative flex flex-col mb-4 md:mb-10">
             <select
               id="country"
               className="bg-transparent border-b border-white/40 text-white focus:outline-none py-2"

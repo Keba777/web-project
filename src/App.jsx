@@ -5,6 +5,7 @@ import Banner from './components/Banner';
 import Features from './components/Features';
 import Footer from './components/Footer';
 import Questions from './components/Questions';
+import Works from './components/Works';
 
 function App() {
   return (
@@ -13,6 +14,7 @@ function App() {
       <Hero />
       <Banner/>
       <Features/>
+      <Works/>
       <Questions/>
       <Footer/>
     </div>

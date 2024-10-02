@@ -23,7 +23,7 @@ const Works = () => {
 
   return (
     <div
-      className="relative w-full h-screen"
+      className="relative w-full h-screen "
       style={{
         backgroundImage: `url(${backgrounds[currentScreen]})`,
         backgroundSize: "cover",

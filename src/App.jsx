@@ -1,16 +1,18 @@
 import React from 'react';
 import Hero from "./components/Hero";
 import NavBar from "./components/NavBar";
-import JoinWaitList from './components/JoinWaitList';
+import Banner from './components/Banner';
 import Features from './components/Features';
+import Footer from './components/Footer';
 
 function App() {
   return (
     <div>
       <NavBar />
       <Hero />
-      <JoinWaitList/>
+      <Banner/>
       <Features/>
+      <Footer/>
     </div>
   );
 }

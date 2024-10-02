@@ -10,10 +10,18 @@ body {
  background: #000000;
 }
 
-.join-waitlist {
+.banner {
   background-image: url('./assets/background.svg');
   background-size: contain; 
   background-repeat: no-repeat;
   background-position: center;
   height: 195vh;
+}
+
+.join-waitlist {
+  background-image: url('./assets/bg-footer.svg');
+  background-size: contain; 
+  background-repeat: no-repeat;
+  background-position: center;
+  height: 102vh;
 }
